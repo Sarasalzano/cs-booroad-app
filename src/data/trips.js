@@ -7,7 +7,7 @@ const trips = [
     path: "/viaggi/roma",
     travellers: [
       {
-        id: "1",
+        id: 1,
         nome: "Luca",
         cognome: "Rossi",
         email: "luca.rossi@example.com",
@@ -15,7 +15,7 @@ const trips = [
         codice_fiscale: "RSSLCU85M01H501Z",
       },
       {
-        id: "2",
+        id: 2,
         nome: "Giulia",
         cognome: "Bianchi",
         email: "giulia.bianchi@example.com",
@@ -24,7 +24,7 @@ const trips = [
       },
 
       {
-        id: "3",
+        id: 3,
         nome: "Marco",
         cognome: "Verdi",
         email: "marco.verdi@example.com",
@@ -42,7 +42,7 @@ const trips = [
     path: "/viaggi/parigi",
     travellers: [
       {
-        id: "1",
+        id: 1,
         nome: "Sara",
         cognome: "Conti",
         email: "sara.conti@example.com",
@@ -50,7 +50,7 @@ const trips = [
         codice_fiscale: "CNTSAR88L60H501J",
       },
       {
-        id: "2",
+        id: 2,
         nome: "Davide",
         cognome: "Esposto",
         email: "davide.esposto@example.com",
@@ -58,7 +58,7 @@ const trips = [
         codice_fiscale: "SPSDVD91B22H501T",
       },
       {
-        id: "3",
+        id: 3,
         nome: "Elena",
         cognome: "Ferrari",
         email: "elena.ferrari@example.com",
@@ -75,7 +75,7 @@ const trips = [
     path: "/viaggi/tokyo",
     travellers: [
       {
-        id: "1",
+        id: 1,
         nome: "Matteo",
         cognome: "Romano",
         email: "matteo.romano@example.com",
@@ -83,7 +83,7 @@ const trips = [
         codice_fiscale: "RMNMTT89T10H501V",
       },
       {
-        id: "2",
+        id: 2,
         nome: "Chiara",
         cognome: "Galli",
         email: "chiara.galli@example.com",
@@ -91,12 +91,12 @@ const trips = [
         codice_fiscale: "GLLCHR93C58H501U",
       },
       {
-        id: "3",
+        id: 3,
         nome: "Francesco",
-        cognome: "Moretti",
-        email: "francesco.moretti@example.com",
+        cognome: "Totti",
+        email: "francesco.totti@example.com",
         cellulare: "+39 348 112 5566",
-        codice_fiscale: "MRTFNC86P12H501X",
+        codice_fiscale: "FRNTTTT86P12H501X",
       },
     ],
   },
