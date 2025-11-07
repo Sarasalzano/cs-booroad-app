@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import trips from "../../data/trips";
+import './travelCards.css';
 
 export default function TravelCards() {
   return (
@@ -8,7 +9,7 @@ export default function TravelCards() {
       <div>
         {trips.map((trip) => (
           <Link key={trip.id} to={trip.path}>
-            <div>
+            <div className="travel-card-wrapper">
               <img src={trip.image} alt={trip.name} />
               <h2>{trip.name}</h2>
               <p>{trip.duration}</p>
