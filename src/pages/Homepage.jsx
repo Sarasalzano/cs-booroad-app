@@ -1,7 +1,5 @@
-import TravelCards from "../components/TravelCards"
+import TravelCards from "../components/TravelCards";
 
-export default function Homepage(){
-    return(
-        <TravelCards />
-    )
+export default function Homepage() {
+  return <TravelCards />;
 }
