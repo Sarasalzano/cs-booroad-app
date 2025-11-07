@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import trips from "../../data/trips";
-import './travelCards.css';
+import trips from "../data/trips";
+import "./travelCards.css";
 
 export default function TravelCards() {
   return (
