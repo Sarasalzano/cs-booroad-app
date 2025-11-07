@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import trips from "../../data/trips";
+
 export default function TravelCards() {
   return (
     <div>

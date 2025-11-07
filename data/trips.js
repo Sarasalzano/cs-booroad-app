@@ -21,4 +21,4 @@ const trips = [
     path: "/viaggi/tokyo",
   },
 ];
-
+export default trips
