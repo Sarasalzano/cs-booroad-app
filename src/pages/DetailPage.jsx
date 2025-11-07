@@ -5,9 +5,9 @@ import trips from "../data/trips"; // assicurati che il percorso sia corretto
 
 export default function DetailPage() {
   const { id } = useParams(); // cattura l'id dall'URL (es. /viaggi/2)
-  const trip = trips.find((t) => t.id === Number(id)); // trova il viaggio corretto
+  const trip = trips.find((t) => t.path === `/viaggi/${id}`); // trova il viaggio corretto
 
-  const travellers = trip.travellers;
+  const travellers = trip?.travellers;
 
   return (
     <>
