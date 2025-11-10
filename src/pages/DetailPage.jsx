@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { Accordion, Navbar } from "react-bootstrap";
 import SearchBar from "../components/SearchBar";
 import trips from "../data/trips"; // assicurati che il percorso sia corretto
@@ -17,8 +17,10 @@ export default function DetailPage() {
   return (
     <div className="container mt-3">
       <Navbar>
-        <button>Homepage</button>
-        <SearchBar onSearch={handleSearch} /> 
+        <button>
+          <Link to="/">Indietro</Link>
+        </button>
+        <SearchBar onSearch={handleSearch} />
       </Navbar>
       {/* {/ Lista filtrata */}
       {filteredTravellers.length > 0 ? (
@@ -29,7 +31,7 @@ export default function DetailPage() {
             alwaysOpen
             className="mb-3"
           >
-            <Accordion.Item eventKey="0">
+            <Accordion.Item eventKey="1">
               <Accordion.Header>
                 {t.nome} {t.cognome}
               </Accordion.Header>
