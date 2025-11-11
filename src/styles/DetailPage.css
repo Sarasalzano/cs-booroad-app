@@ -1,0 +1,80 @@
+.detail-page {
+  background: var(--bg);
+  color: var(--text);
+  padding: 30px 30px;
+  max-width: 480px;
+  min-height: 80vh;
+  margin: 0 auto;
+}
+
+.detail-header {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.detail-header h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.detail-header .duration {
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.detail-search {
+  margin-bottom: 15px;
+}
+
+.accordion-item-dark {
+  background: var(--surface);
+  color: var(--text);
+  margin-bottom: 15px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0px 2px 10px 2px black;
+  --bs-accordion-border-radius: var(--radius);
+}
+
+.search-input {
+  box-shadow: 0px 2px 10px 2px black;
+  margin-bottom: 20px;
+}
+
+.search-input::placeholder {
+  color: white;
+  opacity: 0.3;
+}
+
+
+.accordion-item-dark .accordion-header {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.accordion-item-dark .accordion-button {
+  background: var(--surface-2);
+  color: var(--text);
+  font-weight: 300;
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-item-dark .accordion-button::after {
+  filter: opacity(0.5) invert(1);
+}
+
+.accordion-item-dark .accordion-body {
+  background: var(--surface);
+  color: var(--text);
+  font-size: 14px;
+  padding: 14px 18px;
+}
+
+.no-results {
+  text-align: center;
+  color: var(--muted);
+  font-size: 15px;
+  margin-top: 40px;
+}

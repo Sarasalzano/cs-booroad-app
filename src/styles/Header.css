@@ -1,0 +1,29 @@
+.header {
+    background: black;
+    color: var(--text);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    position: sticky;
+    padding: 20px 0;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    gap: 14px;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    /* margin-top: 20px; */
+}

@@ -3,8 +3,7 @@ const trips = [
     id: 1,
     name: "Roma",
     duration: "3 giorni",
-    image: "",
-    path: "/viaggi/roma",
+    image: "/img/roma.jpeg",
     travellers: [
       {
         id: 1,
@@ -38,8 +37,7 @@ const trips = [
     id: 2,
     name: "Parigi",
     duration: "5 giorni",
-    image: "",
-    path: "/viaggi/parigi",
+    image: "/img/parigi.jpeg",
     travellers: [
       {
         id: 1,
@@ -71,8 +69,7 @@ const trips = [
     id: 3,
     name: "Tokyo",
     duration: "7 giorni",
-    image: "",
-    path: "/viaggi/tokyo",
+    image: "/img/tokyo.jpeg",
     travellers: [
       {
         id: 1,

@@ -13,8 +13,8 @@ export default function SearchBar({ onSearch }) {
   return (
     <input
       type="text"
-      className="form-control mb-3 "
-      placeholder= "cerca"
+      className="search-input"
+      placeholder= "Cerca"
       value={query}
       onChange={handleChange}
     />
